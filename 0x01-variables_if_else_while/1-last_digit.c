@@ -2,7 +2,12 @@
 #include <time.h>
 #include <stdio.h>
 
-/* betty style doc for function main goes there */
+/**
+* main - void
+* 
+* Description: This is the entry point of the C program
+* Return: return value to integer 0 [Success]
+*/
 int main(void)
 {
 int n;
