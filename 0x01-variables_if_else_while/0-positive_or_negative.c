@@ -2,7 +2,12 @@
 #include <time.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/**
+* main - void
+*
+* Description: return an integer 0 to whom called it
+* Return: return 0 (Success)
+*/
 int main(void)
 {
 int n;
@@ -12,10 +17,12 @@ n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
 printf("is positive\n");
-} else if (n == 0)
-{ 
+}
+else if (n == 0)
+{
 printf("is zero\n");
-} else 
+} 
+else
 {
 printf("is negative\n");
 }
