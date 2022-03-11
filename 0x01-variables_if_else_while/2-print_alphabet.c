@@ -9,7 +9,9 @@ int main(void)
 {
 char b = 'a'
 while (b < 123)
+{
 putchar(b);
 b++;
+}
 return (0);
 }
