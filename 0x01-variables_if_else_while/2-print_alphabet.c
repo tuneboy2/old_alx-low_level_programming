@@ -7,11 +7,11 @@
 */
 int main(void)
 {
-char b = 'a'
-while (b < 123)
+char c = 'a'
+while (c < 123)
 {
-putchar(b);
-b++;
+putchar(c);
+c++;
 }
 putchar('\n');
 return (0);
