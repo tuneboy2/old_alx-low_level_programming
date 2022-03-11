@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
-* main - This is tge entry point of the C program
-*
+* main - void
+* Description: This is the main entry of the C program
 * printf - prints tge argument to the standard output
 * Return: returns an integer to the whomever that called
 */
