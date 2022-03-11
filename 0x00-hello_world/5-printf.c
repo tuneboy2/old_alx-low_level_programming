@@ -1,6 +1,6 @@
 #include <stdio.h>
-/**
-* main - void 
+/*
+* main - void
 *
 * Description: This is the main entry of the C program
 * printf - prints tge argument to the standard output
