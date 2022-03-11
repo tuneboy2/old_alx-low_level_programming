@@ -1,1 +1,14 @@
-#include <studio.h>/n
+#include <stdio.h>
+/**
+* main - entry point
+* 
+* Description: This is the entry point of the C program
+* Return: 0
+*/
+int main()
+{
+char b = 'a' 
+while (b < 123)
+putchar(b); b++;
+return 0
+}
