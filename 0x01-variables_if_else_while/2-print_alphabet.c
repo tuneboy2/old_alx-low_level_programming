@@ -8,10 +8,11 @@
 int main(void)
 {
 char b = 'a'
-while (; b < 123)
+while (b < 123)
 {
-putchar(b);
+putchar("b");
 b++;
 }
+putchar("\n")
 return (0);
 }
