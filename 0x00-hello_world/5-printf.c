@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <stdio.h>
 /**
 * main - this is tge the entry point of the C program
 * printf - prints tge argument to the standard output
