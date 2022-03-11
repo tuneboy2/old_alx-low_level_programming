@@ -4,7 +4,7 @@
 
 /**
 * main - void
-* 
+*
 * Description: This is the entry point of the C program
 * Return: return value to integer 0 [Success]
 */
