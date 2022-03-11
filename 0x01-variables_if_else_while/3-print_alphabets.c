@@ -21,4 +21,4 @@ O++;
 }
 putchar('\n')
 return (0)
-}  
+}
