@@ -12,7 +12,9 @@ while (c <= 'z')
 {
 putchar(c);
 c++;
-if (c == 'q', 'e')
+if (c == 'q')
+continue;
+if (c == 'e')
 continue;
 }
 putchar('\n');
