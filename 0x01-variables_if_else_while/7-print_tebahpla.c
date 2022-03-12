@@ -16,4 +16,3 @@ b--;
 putchar('\n');
 return (0);
 }
-  
