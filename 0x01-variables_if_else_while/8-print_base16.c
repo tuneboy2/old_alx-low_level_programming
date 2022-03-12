@@ -14,8 +14,7 @@ putchar(b);
 b++;
 }
 char init = 'a';
-char max = 'g';
-while (init < max)
+while (init < 'g')
 {
 putchar(init);
 init++;
