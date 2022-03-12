@@ -13,12 +13,12 @@ while (b < 58)
 putchar(b);
 b++;
 }
-char d = 'a';
+char init = 'a';
 char max = 'g';
-while (d < max)
+while (init < max)
 {
-putchar(d);
-d++;
+putchar(init);
+init++;
 }
 putchar('\n');
 return (0);
