@@ -14,10 +14,10 @@ b = 48;
 c = 48;
 while (a < 58)
 {
-b = b + 1;
+b = a + 1;
 while (b < 58)
 {
-c = a + 1;
+c = b + 1;
 while (c < 58)
 {
 putchar(a);
