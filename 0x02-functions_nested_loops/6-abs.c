@@ -12,17 +12,13 @@
 
 int _abs(int c)
 {
-if (c > 0)
+if (c < 0)
 {
-_putchar(c);
-}
-else if (c == 0)
-{
-_putchar(c);
+return (-1 * c);
 }
 else
 {
-_putchar(-c);
+return (c);
 }
 _putchar(10);
 return (0);
