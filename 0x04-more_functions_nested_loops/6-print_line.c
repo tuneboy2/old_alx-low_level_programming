@@ -14,9 +14,9 @@ int c;
 
 if (n > 0)
 {
+
 for (c = 0; c < n; c++)
 _putchar(95);
-_putchar(10);
 }
 
 _putchar(10);
