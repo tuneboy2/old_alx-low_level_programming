@@ -16,7 +16,7 @@ int a;
 for (a = 48; a < 58; a++)
 {
 
-if (a == 52 || a == 54)
+if (a == 52 || a == 50)
 {
 continue;
 }
