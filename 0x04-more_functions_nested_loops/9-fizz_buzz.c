@@ -9,26 +9,24 @@
 
 int main(void)
 {
-int a, b, c, d;
+int a;
+
 for (a = 1; a < 100; a++)
 {
-b = (a % 3);
-c = (a % 5);
-d = (a % 15);
 
-if (b == 0)
+if (a % 3 == 0 && a % 5 != 0)
 {
 printf("Fizz");
 }
 
-else if (c == 0)
-{
-printf("Buzz");
-}
-
-else if (d == 0)
+else if (a % 3 == 0 && a % 5 == 0)
 {
 printf("FizzBuzz");
+}
+
+else if (a % 3 != 0 && a % 5 == 0)
+{
+printf("Buzz");
 }
 
 else
