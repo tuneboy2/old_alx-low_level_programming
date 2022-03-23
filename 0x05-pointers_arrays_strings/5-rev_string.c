@@ -17,6 +17,8 @@ void rev_string(char *s)
 	s++;
 	count++;
 	}
+	
+	
 
 	while (count > 0)
 	{
