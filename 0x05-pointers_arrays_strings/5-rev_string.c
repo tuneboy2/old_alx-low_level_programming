@@ -7,25 +7,30 @@
 * Description: A function that reverses a string
 * Return: void
 */
-
 void rev_string(char *s)
+
 {
-	int count;
 
+	int count, i;	
+	
 	while (*s != '\0')
+
 	{
+
 	s++;
+
 	count++;
-	}
-	
-	
 
-	while (count > 0)
-	{
-	s--;
-	_putchar(*s);
-	count--;
 	}
 
-_putchar(10);
+for (i= count; s[i] != '\0'; i--)
+
+;
+
+return (s);
+
 }
+
+	
+	
+
