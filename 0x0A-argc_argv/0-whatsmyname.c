@@ -9,10 +9,10 @@
 * Return: 0 -SUCCESS
 */
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	int i = 0;
-	
+
 	if (i < argc)
 		printf("%s\n", argv[0]);
 
