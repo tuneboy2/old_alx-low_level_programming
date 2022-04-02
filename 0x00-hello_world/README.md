@@ -17,5 +17,8 @@ entry points using `main` and text-printing functions.
 - **3. Name**
   - [3. Name](./3-name): A Bash script that compiles a C file saved in the variable `$CFILE` and creates an executable named `cisfun`.
 
+- **4. Hello, puts**
+  - [4. Hello, puts](./4-puts): A C program that prints exactly `"Programming is like building a multilingual puzzle,` followed by a new line, using only the function `puts`
+
 
 
