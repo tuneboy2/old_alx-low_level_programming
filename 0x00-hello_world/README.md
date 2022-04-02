@@ -12,5 +12,10 @@ entry points using `main` and text-printing functions.
     
 - **2. Assembler**
   - [2. Assembler](./2-assembler): A Bash script that generates the assembly code of a C file saved in the variable `$CFILE`, and the output file should be named the same as the C file, but with the extension `.s`
-    * Example: if the C file is main.c, the output file should be main.s
+    * Example: if the C file is `main.c`, the output file should be `main.s`
+
+- **3. Name**
+  - [3. Name](./3-name): A Bash script that compiles a C file saved in the variable `$CFILE` and creates an executable named `cisfun`.
+
+
 
