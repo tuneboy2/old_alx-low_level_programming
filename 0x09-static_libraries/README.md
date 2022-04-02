@@ -25,7 +25,7 @@ In this project, I learnt about C libraries, practiced creating a Static Library
     * `char *_strpbrk(char *s, char *accept);`
     * `char *_strstr(char *haystack, char *needle);`
 
-
+   - [main.h](./main.h): This is a header file that contains all the prototype of functions included in the `libmy.a` library
 
 
 
