@@ -7,5 +7,6 @@ entry points using `main` and text-printing functions.
   - [0. Preprocessor](./0-processor): A Bash script that runs a C file saved in the variable `$CFILE`through the preprocessor and save the result into another file `C`
 
 - **1. Compiler**
-
+  - [1. Compiler](./1-compiler): A Bash Script that compiles a `C` file saved in the bariable `$CFIlLE`but does not link, and its output should be named same as the `C` file but with the extension `.o`
+     * Example: if the C file is `main.c`, the output file should be `main.o`.
 
