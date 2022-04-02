@@ -28,7 +28,7 @@ In this project, I learnt about C libraries, practiced creating a Static Library
    - [main.h](./main.h): This is a header file that contains all the prototype of functions included in the `libmy.a` library
 
 - **1. Without libraries what have we? We have no past and no future**
-  - [create_static_lib.sh](./create_static_lib.sh):
+  - [create_static_lib.sh](./create_static_lib.sh): A Bash script called `create_static_lib.sh` that creates a static library called `liball.a` from all the `.c` files that are in the current directory.
 
 
 
