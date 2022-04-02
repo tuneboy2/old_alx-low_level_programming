@@ -1,4 +1,4 @@
-# Low Level Programming & Algorithm
+# Low-Level Programming & Algorithm
 This repository contains programs written for the low-level programming and algorithm track at ALX-Holberton Software Engineering Program.
 
 In these projects, which occurred throughout the duration of the Year 1 curriculum, I learned about data structures, algorithms, and other low-level programming concepts while working in the C language. The specific list of projects contained follows:
@@ -12,3 +12,4 @@ In these projects, which occurred throughout the duration of the Year 1 curricul
 - [0x08. C - Recursion](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x08-recursion)
 - [0x09. C - Static libraries](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x09-static_libraries)
 - [0x0A. C - argc, argv](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x0A-argc_argv)
+# Author
