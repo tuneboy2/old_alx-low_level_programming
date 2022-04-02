@@ -23,5 +23,9 @@ entry points using `main` and text-printing functions.
 - **5. Hello, printf**
   - [5. Hello, printf](./5-printf.c): A C program that prints exactly `with proper grammar, but the outcome is a piece of art,`, followed by a new line. Using only the function `printf`
 
+- **7. Intel**
+  - [7. Intel](./100-intel): Script that generates the assembly code in Intel syntax of a C file saved in the variable `$CFILE`; saves the result in an output file of the same name but with a `.s` extension.
+    * Example: If the C file is main.c, the output is main.s.
+
 
 
