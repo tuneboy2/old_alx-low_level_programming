@@ -13,5 +13,5 @@ In these projects, which occurred throughout the duration of the Year 1 curricul
 - [0x09. C - Static libraries](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x09-static_libraries)
 - [0x0A. C - argc, argv](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x0A-argc_argv)
 # Author
-- **Oladapo Olatunbosun A** <[tuneboy2](https://github.com/tuneboy2)>
+- **Oladapo Olatunbosun** <[tuneboy2](https://github.com/tuneboy2)>
   
