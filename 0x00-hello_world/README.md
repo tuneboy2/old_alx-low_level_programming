@@ -9,4 +9,8 @@ entry points using `main` and text-printing functions.
 - **1. Compiler**
   - [1. Compiler](./1-compiler): A Bash Script that compiles a `C` file saved in the bariable `$CFIlLE`but does not link, and its output should be named same as the `C` file but with the extension `.o`
      * Example: if the C file is `main.c`, the output file should be `main.o`.
+    
+- **2. Assembler**
+  - [2. Assembler](./2-assembler): A Bash script that generates the assembly code of a C file saved in the variable `$CFILE`, and the output file should be named the same as the C file, but with the extension `.s`
+    * Example: if the C file is main.c, the output file should be main.s
 
