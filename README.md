@@ -12,9 +12,9 @@ In these projects, which occurred throughout the duration of the Year 1 curricul
 - [0x08. C - Recursion](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x08-recursion)
 - [0x09. C - Static libraries](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x09-static_libraries)
 - [0x0A. C - argc, argv](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x0A-argc_argv)
-# Author
+## Author :black_nib:
 - **Oladapo Olatunbosun** <[tuneboy2](https://github.com/tuneboy2)>
-# Acknowledgements
+## Acknowledgements :pray:
 All work contained in this project was completed as part of the curriculum for the ALX Software Engineering Program. The ALX SE program in collaboration with Holberton School is an online-based full-stack software engineering program that prepares students for careers in the tech industry using project-based peer learning. For more information, visit [this link.](https://www.alxafrica.com/)
 
 
