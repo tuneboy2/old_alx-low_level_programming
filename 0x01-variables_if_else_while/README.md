@@ -8,3 +8,5 @@ In this project, I learnt how to make use of the arithmetic, relational, logical
       * `is positive` if number is greater than 0
       * `is zero`, if the number is zero
       * `is negative`, if the number is less than 0
+- **1. The last digit**
+  - [1-last_digit.c](./1-last_digit.c):
