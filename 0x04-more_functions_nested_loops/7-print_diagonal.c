@@ -12,23 +12,24 @@
 void print_diagonal(int n)
 {
 
-int c;
+int row, col;
+
 if (n > 0)
 {
+for (row = 1; row < n; row++)
+{
 
-for (c = 0; c < n; c++)
+for (col = 1; col < n; col++)
+{
+if (row == col)
+
 {
 _putchar(92);
-
-while (c < n)
-{
-_putchar(10);
-_putchar(' ');
-break;
-}
-
 }
 
 }
 _putchar(10);
+}
+}
+return;
 }
