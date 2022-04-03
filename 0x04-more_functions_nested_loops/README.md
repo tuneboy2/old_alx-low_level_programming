@@ -6,6 +6,8 @@ In this project, I learnt about nested loops, functions, prototype and how to us
 - [_putchar.c](./_putchar.c): A C function that writes a character to the `stdout`.
 ## Header File
 - [main.h](./main.h): This is a Header file that contains all the prototypes used for functions written in the program
+## Executable Files
+- [exe](exe): This is a folder that contains all the executable files from the compilation of the programs in this project.
 ## Tasks
 - **0. isupper**
   - [0-isupper.c](./0-isupper.c): A function that checks for uppercase character and returns `1` if its a uppercase or `0` if otherwise.
