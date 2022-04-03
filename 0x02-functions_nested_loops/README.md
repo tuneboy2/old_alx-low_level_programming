@@ -1,5 +1,5 @@
 # C - Functions, nested loops
-in this project, I learnt about nested loops, functions, prototype and how to use them. Whilst, also practicing declaration and definition of functions.
+In this project, I learnt about nested loops, functions, prototype and how to use them. Whilst, also practicing declaration and definition of functions.
 ## Tests
 - [tests](./tests): Folder of test files used to test my functions. Provided by ALX.
 ## Helper File
