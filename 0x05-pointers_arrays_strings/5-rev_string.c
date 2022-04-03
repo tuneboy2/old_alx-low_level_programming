@@ -1,4 +1,5 @@
 #include"main.h"
+#include <stdio.h>
 
 /**
 * rev_string - The called function
@@ -8,29 +9,12 @@
 * Return: void
 */
 void rev_string(char *s)
-
 {
+	int j = 0;
 
-	int count, i;	
-	
 	while (*s != '\0')
-
 	{
-
-	s++;
-
-	count++;
-
+		s++;
+		j++;
 	}
-
-for (i= count; s[i] != '\0'; i--)
-
-;
-
-return (s);
-
 }
-
-	
-	
-
