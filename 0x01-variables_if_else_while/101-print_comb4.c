@@ -8,32 +8,35 @@
 */
 int main(void)
 {
-int a, b, c;
-a = 48;
-b = 48;
-c = 48;
-while (a < 58)
-{
-b = a + 1;
-while (b < 58)
-{
-c = b + 1;
-while (c < 58)
-{
-putchar(a);
-putchar(b);
-putchar(c);
-if (a < 55 || b < 56 || c < 57)
-{
-putchar(',');
-putchar(' ');
-}
-c++;
-}
-b++;
-}
-a++;
-}
-putchar('\n');
+	int a, b, c;
+	
+	a = 0;
+	while (a < 10)
+	{
+		b = 0;
+		while (b < 10)
+		{
+			c = 0;
+			while (c < 10)
+			{
+				if (a < b && b < c)
+				{
+				putchar(a + '0');
+				putchar(b + '0');
+				putchar(c + '0');
+				
+				if (a < 7)
+				{
+				putchar(',');
+				putchar(' ');
+				}
+				}
+			c++;
+			}
+		b++;
+		}
+	a++;
+	}
+putchar(10);
 return (0);
 }
