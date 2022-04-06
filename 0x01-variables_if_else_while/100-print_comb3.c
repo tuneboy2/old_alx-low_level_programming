@@ -1,30 +1,35 @@
 #include <stdio.h>
+
 /**
-* main - void
+* main - A program that prints all possible different combinations of two digits.
 *
-* Description: Combination of two digits
-* Return: 0 - Success
+* Return: 0 - SUCCESS
 */
+
 int main(void)
 {
-int b = 48;
-int g = 48;
-while (b < 58)
-{
-g = b + 1;
-while (g < 58)
-{
-putchar(b);
-putchar(g);
-if (b < 56 || g < 57)
-{
-putchar(',');
-putchar(' ');
-}
-g++;
-}
-b++;
-}
-putchar('\n');
-return (0);
+	int i = 0, j;
+
+	while (i < 10)
+	{
+		j = 0;
+		while (j < 10)
+		{
+			if (i != j && i < j)
+			{
+				putchar(i + '0');
+				putchar(j + '0');
+
+			if (i < 8)
+			{
+				putchar(',');
+				putchar(' ');
+			}
+			}
+			j++;
+		}
+		i++;
+	}
+	putchar(10);
+	return (0);
 }
