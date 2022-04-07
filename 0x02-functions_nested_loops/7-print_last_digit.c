@@ -2,29 +2,27 @@
 
 /**
 * print_last_digit - The function that is called
-* @l: Integer used when the function is called
+* @n: Integer used when the function is called
 *
 * Description: A function that prints the last
 * digit of an integer
 * Return: 0 - SUCCESS
 */
 
-int print_last_digit(int l)
+int print_last_digit(int n)
 {
-int o;
+	if (n < 48)
+	{
+		n = -1 * (n % 10);
+		_putchar(n + '0');
+		return (n);
+	}
 
-if (l < 48)
-{
-o = ((l * -1) % 10);
-_putchar(o + '0');
-return (o);
-}
-
-else
-{
-o = (l % 10);
-_putchar(o + '0');
-return (o);
-}
+	else
+	{
+		n = (n % 10);
+		_putchar(n + '0');
+		return (n);
+	}
 
 }
