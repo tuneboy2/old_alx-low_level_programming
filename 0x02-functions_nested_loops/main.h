@@ -16,5 +16,7 @@ void print_to_98(int n);
 
 int _abs(int c);
 
+void times_table(void);
+
 int print_last_digit(int l);
 
