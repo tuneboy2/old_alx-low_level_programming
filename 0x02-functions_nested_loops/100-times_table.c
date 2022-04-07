@@ -7,6 +7,8 @@
 * Return: 0 - SUCCESS
 */
 
+void what_of(int n);
+
 void print_times_table(int n)
 {
 	int i, j, mul;
@@ -15,16 +17,8 @@ if (n >= 0 && n < 15)
 {
 	for (i = 0; i <= n; i++)
 	{
-	if (n == 0)
-	{
-	_putchar('0');
-	}
-	else
-	{
-	_putchar('0');
-	_putchar(',');
-	}
-	for (j = 1; j <= n; j++)
+	what_of(n);
+		for (j = 1; j <= n; j++)
 		{
 			mul = i * j;
 			if (mul > 9 && mul < 100)
@@ -58,3 +52,22 @@ if (n >= 0 && n < 15)
 }
 }
 
+/**
+* what_of - Determines if 0 is placed with a comma or not.
+* @n: Parameter of what_of
+*
+* Return: void
+*/
+
+void what_of(int n)
+{
+	if (n == 0)
+	{
+		_putchar('0');
+	}
+	else
+	{
+		_putchar('0');
+		_putchar(',');
+	}
+}
