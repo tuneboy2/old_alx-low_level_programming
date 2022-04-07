@@ -20,3 +20,5 @@ void times_table(void);
 
 int print_last_digit(int l);
 
+int add(int, int);
+
