@@ -21,6 +21,7 @@ if (n >= 0 && n < 15)
 	}
 	else
 	{
+	_putchar('0');
 	_putchar(',');
 	}
 	for (j = 1; j <= n; j++)
