@@ -10,24 +10,22 @@
 
 int main(void)
 {
-	int i;
-	long int first, second, current;
+	int i, n = 50;
+	long int first = 0, second = 1, current;
 
-	for (i = 0; i < 47; i++)
+	for (i = 0; i < n; i++)
 	{
-		if (i < 1)
-		{
-			first = 1;
-			second = 2;
-			current = first + second;
-			printf("%ld, %ld, %ld", first, second, current);
-		}
+		current = first + second;
+		printf("%ld", current);
 
 		first = second;
 		second = current;
-		current = first + second;
-		printf(", %ld", current);
+
+		if (i < n - 1)
+		{
+			printf(", ");
+		}
 	}
-printf("\n");
+	printf("\n");
 return (0);
 }
