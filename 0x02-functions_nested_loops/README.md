@@ -20,6 +20,10 @@ In this project, I learnt about nested loops, functions, prototype and how to us
 | `8-24_hours.c`           | `void jack_bauer(void);`        |
 | `11-print_to_98.c`.      | `void print_to_98(int n);`      |
 
+## Executable Files
+
+- [exe](exe): This is a folder that contains all the executable files from the compilation of the programs in this project.
+- 
 ## Tasks
 - **0. _putchar**
   - [0-putchar.c](./0-putchar.c): A program that prints `_putchar`, followed by a new line.
