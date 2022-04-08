@@ -59,3 +59,8 @@ In this project, I learnt how to make use of the arithmetic, relational, logical
     - `012`, `120`, `102`, `021`, `201` and `210` are considered the same combination of the three digits `0`, `1` and `2`.
     - Prints only the smallest combination of three digits.
     - Numbers are printed in ascending order.
+
+- **12. Software is eating the World**
+  - [102-print_comb5.c](102-print_comb5.c): A program that prints all possible combinations of two two-digits number.
+
+
