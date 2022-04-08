@@ -1,5 +1,8 @@
 # **C - Variables, if, else, while**
 In this project, I learnt how to make use of the arithmetic, relational, logical, and boolean operators in C.  Also, I learnt how to declare and assign variables of type `char`, `int`, and `unsigned int`, how to make use of the `if`, `else if` and `else` statements and also the `while` loops. 
+## Executable Files
+
+- [exe](exe): This is a folder that contains all the executable files from the compilation of the programs in this project.
 ## **Tasks** 
 - **0. Positive anything is better than negative nothing**
   - [0-positive_or_negative.c](./0-positive_or_negative.c): A C program that assigns a random number to the variable `n` each time it is executed.
