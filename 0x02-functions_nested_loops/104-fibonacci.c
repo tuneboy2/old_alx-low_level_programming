@@ -11,7 +11,7 @@
 int main(void)
 {
 	int i, n = 98;
-	float first = 0, second = 1, current;
+	double first = 0, second = 1, current;
 
 	for (i = 0; i < n; i++)
 	{
