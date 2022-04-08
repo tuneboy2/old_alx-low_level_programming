@@ -11,12 +11,12 @@
 int main(void)
 {
 	int i, n = 98;
-	double first = 0, second = 1, current;
+	long double first = 0, second = 1, current;
 
 	for (i = 0; i < n; i++)
 	{
 		current = first + second;
-		printf("%.0f", current);
+		printf("%.0Lf", current);
 
 		first = second;
 		second = current;
