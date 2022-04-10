@@ -11,25 +11,24 @@
 
 void print_diagonal(int n)
 {
+int rows, j, space = 1;
+	if (n > 0)
+	{
+		for (rows = 0; rows < n; rows++)
+		{
+			_putchar(92);
+			if (rows < n - 1)
+			{
+				_putchar(10);
 
-int row, col;
-
-if (n > 0)
-{
-for (row = 1; row < n; row++)
-{
-
-for (col = 1; col < n; col++)
-{
-if (row == col)
-
-{
-_putchar(92);
-}
-
-}
+				for (j = 0; j < space; j++)
+				{
+					_putchar(' ');
+				}
+			space++;
+			}
+		}
+	}
 _putchar(10);
-}
-}
 return;
 }
