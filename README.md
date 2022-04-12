@@ -12,6 +12,8 @@ In these projects, which occurred throughout the duration of the 1 Year curricul
 - [0x08. C - Recursion](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x08-recursion)
 - [0x09. C - Static libraries](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x09-static_libraries)
 - [0x0A. C - argc, argv](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x0A-argc_argv)
+- [0x0B. C - malloc, free](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x0B-malloc_free)
+- [0x0D. C - Preprocessor](https://github.com/tuneboy2/alx-low_level_programming/tree/master/0x0D-preprocessor)
 ## Author :black_nib:
 - **Oladapo Olatunbosun** <[tuneboy2](https://github.com/tuneboy2)>
 ## Acknowledgements :pray:
