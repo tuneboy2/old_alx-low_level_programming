@@ -21,10 +21,11 @@ char *_strdup(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 		;
 
-	new = malloc(sizeof(char) * i);
+	new = malloc(sizeof(char) * i + 1);
 	if (new == NULL)
 	{
 		printf("Can't allocate bytes after (%d cals)\n", i);
+		return (NULL);
 	}
 
 	for (j = 0; j < i; j++)
