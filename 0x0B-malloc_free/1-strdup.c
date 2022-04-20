@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 
 /**
 * _strdup - A function returns a pointer to a new
@@ -21,6 +22,11 @@ char *_strdup(char *str)
 		;
 
 	new = malloc(sizeof(char) * i);
+	if (new == NULL)
+	{
+		printf("Can't allocate bytes after (%d cals)\n", i);
+	}
+
 	for (j = 0; j < i; j++)
 	{
 		new[j] = str[j];
