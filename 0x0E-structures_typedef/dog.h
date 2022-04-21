@@ -24,7 +24,7 @@ void print_dog(struct dog *d);
 typedef struct 
 {
 	char *name;
-	float *age;
+	float age;
 	char *owner;
 }dog_t;
 
