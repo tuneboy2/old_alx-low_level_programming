@@ -21,11 +21,15 @@ void init_dog(struct dog *d, char *name, float age, char *owner);
 
 void print_dog(struct dog *d);
 
-typedef struct 
+/**
+* dog_t - This is a typedef comprising of struct dog wlements.
+*/
+
+typedef struct
 {
 	char *name;
 	float age;
 	char *owner;
-}dog_t;
+} dog_t;
 
 #endif
